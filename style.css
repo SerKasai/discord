@@ -36,6 +36,29 @@
         justify-content: space-around;
     }
 
+    .flex-container3 {
+        display: flex;
+        align-items: center;
+        column-gap: 46px;
+        padding-top: 10px;
+    }
+
+    .flex-container4 {
+        display: flex;
+        align-items: center;
+        column-gap: 46px;
+        padding: 10px 199px;
+    }
+
+    .container-wave {
+        display: block;
+        margin: 0 auto;
+        min-height: 417px;
+        background-image: url(img/wave.svg);
+        background-color: #f1f1f1;
+        background-blend-mode: soft-light;
+    }
+
     .flex-2buttons {
         display: flex;
         flex-direction: row;
@@ -89,6 +112,15 @@
         border-bottom-left-radius: 20px;
     }
 
+    .flex-img {
+        display: flex;
+    }
+
+    .flex-didascalia {
+        display: flex;
+        flex-direction: column;
+    }
+
     h1 {
         padding-bottom: 20px;
     }
@@ -97,4 +129,15 @@
         font-size: 20px;
         text-align: center;
         padding: 40px 30px;
+    }
+
+
+
+
+
+
+    /* Debug */
+
+    .debug {
+        background-color: salmon;
     }
