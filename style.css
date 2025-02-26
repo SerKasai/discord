@@ -4,93 +4,97 @@
     box-sizing: border-box;
     font-family: 'Roboto', 'Canda', sans-serif;
 
-header {
-    padding-top: 20px;
-    background-image: url('img/jumbo.png');
-    background-position: center;
-    background-size: cover;
-}
+    header {
+        padding-top: 20px;
+        background-image: url('img/jumbo.png');
+        background-position: center;
+        background-size: cover;
+    }
 
-.img .cover {
-    height: 503px;
-    max-width: 1320vw;
-}
+    .img .cover {
+        height: 503px;
+        max-width: 1320vw;
+    }
 
-.container {
-    display: block;
-    margin: 0 auto;
-    min-height: 417px;
-    max-width: 960px;
-}
+    .container {
+        display: block;
+        margin: 0 auto;
+        min-height: 417px;
+        max-width: 960px;
+    }
 
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.flex-container2 {
-    display: flex;
-    height: 50px;
-    align-items: center;
-    justify-content: space-around;
-}
+    .flex-container2 {
+        display: flex;
+        height: 50px;
+        align-items: center;
+        justify-content: space-around;
+    }
 
-ul li{
-    display: inline;
-    padding: 0 20px;
-}
+    .flex-2buttons {
+        display: flex;
+        flex-direction: row;
+        column-gap: 100px;
+    }
 
-.main {
-    font-size: larger;
-    color: white;
-    text-align: center;
-    padding: 60px 170px 0 170px;
-}
+    .browser {
+        background-color: black;
+        color: white;
+    }
 
-.nav li a {
-    color: #ffffff;
-    text-decoration: none;
-}
+    button {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        height: 45px;
+        border: none;
+        padding: 12px;
+    }
 
-.login a {
-    display: inline-block;
-    color: #000;
-    background-color: white;
-    text-decoration: none;
-    width: 80px;
-    height: 38px;
-    line-height: 40px;
-    text-align: center;
-    border-radius: 40%;
-}
-h1 {
-    padding-bottom: 20px;
-}
+    ul li {
+        display: inline;
+        padding: 0 20px;
+    }
 
-p {
-    font-size: 20px;
-    text-align: center;
-    padding: 40px 30px;
-}
+    .main {
+        font-size: larger;
+        color: white;
+        text-align: center;
+        padding: 60px 170px 0 170px;
+    }
 
-/* .flex-2buttons {
-    display: inline-block;
+    .nav li a {
+        color: #ffffff;
+        text-decoration: none;
+    }
 
+    .login a {
+        display: inline-block;
+        color: #000;
+        background-color: white;
+        text-decoration: none;
+        width: 80px;
+        height: 38px;
+        line-height: 40px;
+        text-align: center;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
 
-    width: 125px;
-    line-height: 50px;
-    text-align: center;
-} */
-.mac a{
-    color: black;
-    background-color: white;
-    border-radius: 30%;
-    text-decoration: none;
-}
-.browser a{
-    color: white;
-    background-color: black;
-    border-radius: 30%;
-    text-decoration: none;
-}
+    h1 {
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: center;
+        padding: 40px 30px;
+    }
