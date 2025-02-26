@@ -40,14 +40,21 @@
         display: flex;
         align-items: center;
         column-gap: 46px;
-        padding-top: 10px;
+        padding: 10px 0 30px 0;
     }
 
     .flex-container4 {
         display: flex;
         align-items: center;
-        column-gap: 46px;
         padding: 10px 199px;
+        column-gap: 46px;
+    }
+
+    .flex-container5 {
+        display: flex;
+        align-items: center;
+        padding: 60px 199px 0 199px;
+        flex-direction: column;
     }
 
     .container-wave {
