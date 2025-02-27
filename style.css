@@ -53,8 +53,20 @@
     .flex-container5 {
         display: flex;
         align-items: center;
-        padding: 60px 199px 0 199px;
+        padding: 60px 199px 60px 199px;
         flex-direction: column;
+    }
+
+    .flex-container5 .flex-didascalia {
+        text-align: center;
+    }
+
+    .flex-container5 .flex-2buttons .mac {
+        background-color: #648AE8;
+    }
+
+    .flex-container5 .flex-2buttons .mac a {
+        color: white;
     }
 
     .container-wave {
@@ -74,7 +86,16 @@
 
     .browser {
         background-color: black;
+    }
+
+    .browser a {
         color: white;
+        text-decoration: none;
+    }
+
+    .mac a {
+        text-decoration: none;
+        color: black;
     }
 
     button {
@@ -126,6 +147,13 @@
     .flex-didascalia {
         display: flex;
         flex-direction: column;
+    }
+
+    .ready {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 15px 0 15px 0;
     }
 
     h1 {
