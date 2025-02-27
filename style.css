@@ -86,6 +86,7 @@
         display: flex;
         color: white;
         justify-content: space-between;
+        column-gap: 11px;
     }
 
     .flex-container-footer2 {
